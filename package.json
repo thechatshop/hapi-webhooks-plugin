@@ -1,0 +1,19 @@
+{
+  "name": "hapi-webhooks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab -v -L -c -t 80 -R"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "hapi": "^16.1.1",
+    "hapi-auth-basic": "^4.2.0",
+    "hapi-tiny-auth": "^1.1.0",
+    "lab": "^13.0.2"
+  }
+}
