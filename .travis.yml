@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - "6"
-  - "7"
+- '6'
+- '7'
+deploy:
+  provider: npm
+  email: marios.antonoudiou@gmail.com
+  api_key:
+    secure: C37xRcrvvQG2sCnA6NRFVQhGlklf/3YIMgCN6hhOm+g3QWSouwcKFk99J42TMdko7t+4FS5F/k8xZ4AQloqsbDmzKYT6VGOuLAvR5V5D0rg1c4xNdhTEM5h+qQRqzK4+5DmP8j2v70PwhjoLNFouS2llkYuRBMrLbH2phuDJJkSLvIzdJlCsp/DiZgSxYgq9d2AUY2DSvSNiMIlL8wl57NvRDVurPpTbvNdj5rCMJ33A/pyiBjZU5Hk55DK6GX1lCBbfhiCptElEHq8muooZ8KnVskAqFcofQvLczgcrviC47wHDLwxARfYCd3l2Q6yh0tY6BafZtfE6vk6NJkS9tihe8rd6wsmH7Ys2LO5wFNvlW31YagBODtNq6Kbv7E4Ov6SlTcsrvcCaUbGhAsaOY2ZmUCWLro8PDKiCeREBgTukjBhy4r1lCh8XfmVWpx33KLEmQHiTgqk5uiQPBRvm6XyeRPnsl8No4qtkhmcWUQHkJoGEB46uDk59oVySCAKtz0gyxhkh31q1yUsENUNZcIXdtPhMu35a/SBIREByu2Os2QNOzmSwO9i1fqf7XTuVZRW85YyUF0pJlZ9wtg2nfW3Tm/7w9CMT2u0MU5rM+hY1n/l7X3ATfKY+uc7YYBYllSFMLPx+BHdGkPCakoKFU79Ia46HWjreXBfgkxNBiEI=
+  on:
+    tags: true
