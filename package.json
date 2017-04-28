@@ -1,8 +1,8 @@
 {
   "name": "hapi-webhooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple webhooks functionality for Hapi",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/lab -v -L -c -t 80 -R"
   },
