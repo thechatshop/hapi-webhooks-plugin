@@ -1,14 +1,14 @@
 {
   "name": "hapi-webhooks",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple webhooks functionality for Hapi",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/lab -v -L -c -t 80 -R"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["hapi", "webhooks", "plugin"],
+  "author": "Marios Antonoudiou <marios@thechatshop.com>",
+  "license": "MIT",
   "devDependencies": {
     "code": "^4.0.0",
     "hapi": "^16.1.1",
