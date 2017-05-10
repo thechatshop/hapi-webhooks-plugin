@@ -10,7 +10,7 @@ module.exports = function (server, options, next) {
     config.handler = function (request, reply) {
 
         reply().code(204);
-        server.emit(eventName, request);
+        setImmediate(() => server.emit(eventName, request));
     };
 
     (typeof options.auth !== 'undefined') ? config.auth = options.auth : null;
