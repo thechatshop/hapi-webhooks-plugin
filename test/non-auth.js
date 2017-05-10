@@ -35,7 +35,8 @@ lab.experiment('Integration test', () => {
 
         server.once('webhooks-mailstatus', (request) => {
 
-            setTimeout(done, 200);
+            expect(request).not.to.equal(null);
+            done();
         });
 
         server.inject(requestParams, (res) => {

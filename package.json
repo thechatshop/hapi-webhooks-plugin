@@ -1,6 +1,6 @@
 {
   "name": "hapi-webhooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple webhooks functionality for Hapi",
   "main": "src/index.js",
   "scripts": {
